@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Usar tag picture para ter uma imagem que se ajuste a tela.</p>
+    <picture>
+        <source media="(max-width: 720px)" srcset="imagens/300.jpg" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/700.jpg" type="image/png">
+        <img src="imagens/1000.jpg" alt="Imagem flexível.">
+    </picture>
+
+    <h1>Reprodução de Audios</h1>
+    <audio preload="auto" controls>
+        <source src="Midia/The_Weekend_-_Blinding_Lights-(LekkiLoaded.com).mp3" type="audio/mpeg">
+    </audio>
+    
+    <h1>Desafio de videos</h1>
+    <a href="pag2.html"><img src="imagens/300.jpg" alt="videos01"></a> <a href="pag3.html"><img src="imagens/fogo.png" alt="videos02"></a>
+    <br><a href="pag4.html"><img src="imagens/foto.png" alt="pag4"></a> <a href="pag05.html"><img src="imagens/300.jpg" alt="pag05"></a>
+
+</body>
+</html>
